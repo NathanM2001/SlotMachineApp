@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71EA4FCF256CEF060008075F /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EA4FCE256CEF060008075F /* Pixel.swift */; };
+		71EA4FD2256CEF240008075F /* Helicopter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EA4FD1256CEF240008075F /* Helicopter.swift */; };
+		71EA4FD5256CEF450008075F /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EA4FD4256CEF450008075F /* Obstacle.swift */; };
 		71EAB484256C5A4B000EED5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EAB483256C5A4B000EED5E /* AppDelegate.swift */; };
 		71EAB486256C5A4B000EED5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EAB485256C5A4B000EED5E /* SceneDelegate.swift */; };
 		71EAB488256C5A4B000EED5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EAB487256C5A4B000EED5E /* ContentView.swift */; };
 		71EAB48A256C5A4D000EED5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EAB489256C5A4D000EED5E /* Assets.xcassets */; };
 		71EAB48D256C5A4D000EED5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EAB48C256C5A4D000EED5E /* Preview Assets.xcassets */; };
 		71EAB490256C5A4D000EED5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EAB48E256C5A4D000EED5E /* LaunchScreen.storyboard */; };
+		71EAB499256C6493000EED5E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EAB498256C6493000EED5E /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71EA4FCE256CEF060008075F /* Pixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel.swift; sourceTree = "<group>"; };
+		71EA4FD1256CEF240008075F /* Helicopter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helicopter.swift; sourceTree = "<group>"; };
+		71EA4FD4256CEF450008075F /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
 		71EAB480256C5A4B000EED5E /* SlotMachineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EAB483256C5A4B000EED5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71EAB485256C5A4B000EED5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		71EAB48C256C5A4D000EED5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71EAB48F256C5A4D000EED5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71EAB491256C5A4D000EED5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71EAB498256C6493000EED5E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				71EAB483256C5A4B000EED5E /* AppDelegate.swift */,
 				71EAB485256C5A4B000EED5E /* SceneDelegate.swift */,
 				71EAB487256C5A4B000EED5E /* ContentView.swift */,
+				71EAB498256C6493000EED5E /* CardView.swift */,
 				71EAB489256C5A4D000EED5E /* Assets.xcassets */,
 				71EAB48E256C5A4D000EED5E /* LaunchScreen.storyboard */,
 				71EAB491256C5A4D000EED5E /* Info.plist */,
 				71EAB48B256C5A4D000EED5E /* Preview Content */,
+				71EA4FCE256CEF060008075F /* Pixel.swift */,
+				71EA4FD1256CEF240008075F /* Helicopter.swift */,
+				71EA4FD4256CEF450008075F /* Obstacle.swift */,
 			);
 			path = SlotMachineApp;
 			sourceTree = "<group>";
@@ -145,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EA4FD5256CEF450008075F /* Obstacle.swift in Sources */,
 				71EAB484256C5A4B000EED5E /* AppDelegate.swift in Sources */,
 				71EAB486256C5A4B000EED5E /* SceneDelegate.swift in Sources */,
+				71EA4FD2256CEF240008075F /* Helicopter.swift in Sources */,
+				71EA4FCF256CEF060008075F /* Pixel.swift in Sources */,
+				71EAB499256C6493000EED5E /* CardView.swift in Sources */,
 				71EAB488256C5A4B000EED5E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
